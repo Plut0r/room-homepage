@@ -20,10 +20,6 @@ body {
     user-select: none;
 }
 
-img, picture {
-    width: 100%;
-    display: block;
-
 .discover-section-a {
     display: flex;
     flex-direction: column;
