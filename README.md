@@ -41,7 +41,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
+- Solution URL: [Add solution URL here](https://github.com/Plut0r/room-homepage)
 - Live Site URL: [Add live site URL here]()
 
 
