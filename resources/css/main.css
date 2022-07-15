@@ -228,7 +228,6 @@ nav li {
         width: 100%;
         overflow: hidden;
         height: 60vh;
-        background-image: url("../../images/mobile-image-hero-1.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -291,5 +290,16 @@ nav li {
 
     .about h2 {
         letter-spacing: 3px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
     }
 }
