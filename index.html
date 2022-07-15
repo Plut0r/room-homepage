@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./resources/css/main.css">
+
+  <title>Frontend Mentor | Room homepage | Plut0r</title>
+</head>
+
+<body>
+  <header>
+    <div class="section-1">
+      <div class="flex">
+      <button class="mobile-nav-toggle" aria-controls="navigation-link"></button>
+      <img class="room" src="./images/logo.svg" alt="logo.svg">
+    </div>
+      <nav class="navigation-bar" id="navigation-bar">
+        <ul class="navigation-link" id="navigation-link" data-visible="false">
+          <li class="nav-items close"><a class="nav-link" href="#"><img src="./images/icon-close.svg" alt="icon-close"></a></li>
+          <li class="nav-items logo"><a href="#"><img src="./images/logo.svg" alt="room-homepage"></a></li>
+          <li class="nav-items"><a class="nav-link" href="#">home</a></li>
+          <li class="nav-items"><a class="nav-link" href="#">shop</a></li>
+          <li class="nav-items"><a class="nav-link" href="#">about</a></li>
+          <li class="nav-items"><a class="nav-link" href="#">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="discover-section-c slider mobile">
+      <img onclick="count('-')" class="left" src="./images/icon-angle-left.svg" alt="icon-angle-left">
+      <img onclick="count('+')" class="right" src="./images/icon-angle-right.svg" alt="icon-angle-right">
+    </div>
+    <section class="discover-section">
+      <div class="discover-section-a">
+        <h1 class="h1">Discover innovative ways to decorate</h1>
+        <p class="p">We provide unmatched quality, comfort, and style for property owners across the country.
+          Our experts combine form and function in bringing your vision to life. Create a room in your
+          own style with our collection and make your property a reflection of you and what you love.
+        </p>
+        <a href="#">SHOP NOW <span><img src="./images/icon-arrow.svg" alt="icon-arrow"></span></a>
+      </div>
+      <div class="discover-section-b slider desk">
+        <img onclick="count('-')" class="left" src="./images/icon-angle-left.svg" alt="icon-angle-left">
+        <img onclick="count('+')" class="right" src="./images/icon-angle-right.svg" alt="icon-angle-right">
+      </div>
+    </section>
+  </header>
+  <main>
+    <div class="main-div">
+      <img class="about-dark" src="./images/image-about-dark.jpg" alt="image-about-dark">
+      <div class="about">
+        <h2>About our furniture</h2>
+        <p>Our multifunctional collection blends design and function to suit your individual taste.
+          Make each room unique, or pick a cohesive theme that best express your interests and what
+          inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+          or anything in between. Product specialists are available to help you create your dream space.</p>
+      </div>
+      <img class="about-light" src="./images/image-about-light.jpg" alt="image-about-light">
+    </div>
+
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
