@@ -42,7 +42,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Plut0r/room-homepage)
-- Live Site URL: [Add live site URL here]()
+- Live Site URL: [Add live site URL here](https://room-homepae-plut0r.netlify.app/)
 
 
 ### Built with
